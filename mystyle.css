@@ -1,0 +1,295 @@
+/* Add a black background color to the top navigation */
+.topnav {
+  overflow: hidden;
+  font-size: 10px;
+  color: white;
+  background-color: #000329; 
+  position: fixed;
+  width: 100%;
+  margin: 0;
+  top: 0;
+  z-index: 6;
+}
+
+@media (max-width: 800px) {
+  .topnav {
+    font-size: 10px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    margin: 0;
+  }
+} 
+
+.topnav a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 1px 10px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+@media (max-width: 800px) {
+  .topnav a {
+    float: left;
+    display: block;
+    font-size: 12px;
+  }
+}
+
+.topnav .icon {
+  display: none;
+}
+
+.default-heading, .menu-container {
+    display: inline-block;
+}
+
+#body {
+  background-color: #000329;
+}
+
+}
+#home {
+  font-size: 2em;
+}
+
+@media (max-width: 800px) {
+  #home {
+    text-align: center;
+  }
+}
+/* End navbar css */
+
+
+
+#front {
+  text-align: center;
+  color: white;
+  font-family: 'Playfair Display', serif;
+  height: 100vh;
+}
+
+#image1 {
+  display: none;
+}
+
+@media (max-width: 800px) {
+  #image1 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  top: 100px;
+  right: 5px;
+  }
+}
+
+#image2 {
+  display: block;
+  position: relative;
+  top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  height: auto;
+}
+
+@media (max-width: 800px) {
+  #image2 {
+    display: none;
+  }
+}
+
+#front h3 {
+  position: relative;
+  top: -530px;
+  left: 300px;
+  font-size: 32px;
+  z-index: 4;
+  font-family: 'Allura', cursive;
+  color: black;
+}
+
+@media (max-width: 800px) {
+  #front h3 {
+    position: relative;
+    top: 3em;
+    left: 0;
+    color: white;
+  }
+}
+
+#main {
+  display: block;
+  position: relative;
+  top: 100px;
+  text-align: center;
+  color: #000329;
+}
+
+@media (max-width: 800px) {
+  #main {
+    position: relative;
+    top: 0px;
+  }
+}
+
+#meet {
+  margin: 200px;
+  padding-bottom: 100px;
+  background-color: #35b0a4;
+  border: double #000329 15px;
+}
+
+@media (max-width: 800px) {
+  #meet {
+    padding-bottom: 1em;
+    margin: 0;
+  }
+}
+
+#about-header {
+  font-size: 3em;
+  text-align: center;
+  font-family: 'Playfair Display', serif;
+  background-color: #35b0a4;
+  border: 8px black double;
+  
+}
+
+@media (max-width: 800px) {
+  #about-header {
+    font-size: 25px;
+   }
+}
+
+#meet p {
+  font-size: 25px;
+  text-align: center;
+  padding: 2em;
+  margin: 2em;
+}
+
+@media (max-width: 800px) {
+  #meet p {
+    font-size: 15px;
+    padding: 20px;
+  }
+}
+ 
+
+
+
+#scontent h3 {
+  color: white;
+  font-family: 'Playfair Display', serif;
+  font-size: 25px;
+  border: 2px solid white;
+  padding: 4px;
+  margin: 10px;
+}
+
+#scontent {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 24rem);
+  justify-content: center;
+}
+
+#services {
+  color: white;
+  text-align: center;
+  font-family: 'Playfair Display', serif;
+}
+
+#services h2 {
+  font-size: 4em;
+  border: 5px white double;
+  padding: 10px;
+  margin: 20px;
+  margin-right: 2rem;
+  margin-left: 2rem;
+}
+
+#services p {
+  font-size: 16px;
+  margin: 30px;
+  padding: 10px;
+  font-family: 'Roboto', sans-serif;
+}
+
+#scontent img {
+  border: solid white 2px;
+  border-radius: 10px;
+  margin: 20px;
+}
+
+.contentbox {
+  box-sizing: border-box;
+  margin: 2rem;
+  overflow: hidden;
+  border: #35b0a4 double 6px;
+  text-align: center;
+  border-radius: 1rem;
+  position: relative;
+  margin: 0.5rem;
+}
+
+#scontent ul {
+  color: white;
+  font-size: 16px;
+  text-align: left;
+  font-family: 'Roboto', sans-serif;
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+
+
+#box {
+  color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  font-size: 20px;
+  align-items: center;
+}
+
+@media (max-width: 800px) {
+  #box {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+#contact {
+  text-align: center;
+  color: white;
+  font-size: 30px;
+  border: double black 4px;
+  background-color: #35877f;
+  height: auto;
+}
+
+#footer {
+  color: white;
+  text-align: center;
+  padding-top: 20px;
+}
+
+@media (max-width: 800px) {
+  #footer {
+    padding-top: 0;
+    }
+  }
+
+.map-responsive{
+    overflow:hidden;
+    position:relative;
+}
+
+
+#phone-img {
+  border-radius: 100px;
+  border: 1px white solid;
+}
