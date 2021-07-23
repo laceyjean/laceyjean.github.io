@@ -50,6 +50,8 @@
 
 #body {
   background-color: #000329;
+  max-width: 100%;
+  overflow-x: hidden;
 }
 
 }
