@@ -253,22 +253,28 @@
   color: white;
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: space-evenly;
   font-size: 20px;
-  align-items: center;
+  align-items: flex-start;
+  padding-top: 40px;
+  position: relative;
+  left: -60px;
 }
 
 @media (max-width: 800px) {
   #box {
     display: flex;
     flex-direction: column;
+    position: relative;
+    left: 0;
+    align-items: center;
   }
 }
 
 #contact {
   text-align: center;
   color: white;
-  font-size: 30px;
+  font-size: 40px;
   border: double black 4px;
   background-color: #35877f;
   height: auto;
@@ -295,4 +301,8 @@
 #phone-img {
   border-radius: 100px;
   border: 1px white solid;
+}
+
+#fblogo {
+  border-radius: 100px;
 }
