@@ -93,7 +93,7 @@
 #image2 {
   display: block;
   position: relative;
-  top: 50px;
+  top: 100px;
   margin-left: auto;
   margin-right: auto;
   height: auto;
@@ -107,7 +107,7 @@
 
 #front h3 {
   position: relative;
-  top: -530px;
+  top: -500px;
   left: 300px;
   font-size: 32px;
   z-index: 4;
